@@ -59,9 +59,9 @@ Desteklenen diller: Türkçe, İngilizce, Almanca, Fransızca, İspanyolca, İta
 
 ## Gizlilik ve proje durumu
 
-Kaydedilen içerikler yerelde tutulur. Hesap sistemi, uygulama backend'i, analitik SDK, reklam veya ödeme uygulaması yoktur. Fotoğraf taraması Apple'ın seçilen fotoğraf akışını kullanır ve tüm galeriye erişim istemez. Web sayfası açıldığında ilgili siteye bağlantı yapılır; paylaşım ve yedekleme cihazın ayarlarına bağlıdır.
+Kaydedilen içerikler yerelde tutulur. Hesap sistemi, uygulama backend'i, analitik SDK veya reklam yoktur. İsteğe bağlı tek seferlik Pro, Apple StoreKit kullanır; kart içeriği satın alma isteklerine eklenmez. Fotoğraf taraması Apple'ın seçilen fotoğraf akışını kullanır ve tüm galeriye erişim istemez. Web sayfası açıldığında ilgili siteye bağlantı yapılır; paylaşım ve yedekleme cihazın ayarlarına bağlıdır.
 
-İlk sürüm ücretsiz planlanmıştır. Uygulama yayın hazırlığında; **henüz App Store veya TestFlight'ta dağıtılmadı**. 9 Ekim 2026 kontrolünde 121 Flutter ve 16 Swift host testi, temiz analiz ve iOS simülatör derlemesi geçti. Ayrıntılı yayın kabulü ve dağıtım doğrulaması ayrı kalan işlerdir.
+Ücretsiz plan 10 kayıtlı kart, sınırsız QR/fotoğraf tarama ve mevcut temel işlevleri içerir. Tek seferlik Pro sınırsız kart açar (4,99 USD baz fiyat; yerel fiyatı Apple sağlar). Uygulama yayın hazırlığında; **henüz App Store veya TestFlight'ta dağıtılmadı**. 9 Ekim kontrollerinde140 Flutter,16 Swift host ve6 yerel StoreKit SDK testi, temiz analiz ve simülatör/development iPhone derlemeleri geçti. Ana ekrandaki Free / Pro düğmesi tek seferlik satın alma ve geri yükleme panelini açar; gerçek App Store sandbox/cihaz satın alma kabulü açık. Ayrıntılı yayın kabulü ve dağıtım doğrulaması ayrı kalan işlerdir. Güncel kanıt ve test sınırları private build log’da tutulur.
 
 Bu depo, seçilmiş belgeler ve onaylı görseller içeren **public ürün portföyüdür**. Uygulamanın kaynak kodu ve geliştirme geçmişi private tutulur.
 

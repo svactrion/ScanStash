@@ -59,9 +59,9 @@ Supported languages: English, Turkish, German, French, Spanish, Italian, Brazili
 
 ## Privacy and project status
 
-Saved content is kept locally. There is no account system, application backend, analytics SDK, advertising or payment implementation. Reading a photo uses Apple's selected-photo picker and does not request access to the entire photo library. Opening a website connects to that website; system sharing and backups follow the device's settings.
+Saved content is kept locally. There is no account system, application backend, analytics SDK or advertising. The optional one-time Pro purchase uses Apple StoreKit; card content is not included in purchase requests. Reading a photo uses Apple's selected-photo picker and does not request access to the entire photo library. Opening a website connects to that website; system sharing and backups follow the device's settings.
 
-The first release is planned to be free. The app is preparing for distribution and is **not yet available on the App Store or TestFlight**. As of October 9, 2026, 121 Flutter tests and 16 Swift host tests passed, with clean static analysis and a successful iOS simulator build. Detailed release acceptance and distribution validation remain separate.
+The free plan includes 10 saved cards, unlimited QR/photo scanning and existing basic functions. Optional one-time Pro unlocks unlimited saved cards (USD 4.99 base price; Apple supplies local prices). The app is preparing for distribution and is **not yet available on the App Store or TestFlight**. October9 checks passed: 140 Flutter tests, 16 Swift host tests and six local StoreKit SDK tests, clean static analysis and simulator/development iPhone builds. The Free / Pro home button opens the one-time purchase and restore panel; real App Store sandbox and device purchase acceptance remain pending. Detailed release acceptance and distribution validation remain separate. Current evidence and test limits are maintained in the private build log.
 
 This repository is a **public product portfolio**, containing selected documentation and approved visuals. The application implementation and its development history are maintained privately.
 
